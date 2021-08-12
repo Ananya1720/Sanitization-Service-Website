@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function redirect(){
+            alert("Appointment Booked Successfully")
+        }
+
+    </script>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+    
+    <h1>Appointment</h1>
+
+    <div id="ff" >
+        <select name="" id="">
+            <option class="opt" value="Room">Room</option>
+            <option class="opt" value="Floor">Floor</option>
+            <option class="opt" value="Building">Building</option>
+        </select>
+        <input id="date" type="date">
+        <input id="time" type="time">
+        <br>
+        <input class="jj" type="text" placeholder="Enter name">
+        <input class="jj" type="tel" placeholder="Enter mobile number">
+        <br>
+         <textarea name="" cols="50" placeholder="Enter Address"></textarea>
+        <button class="ap" onclick="redirect();">Book Appointment</button>
+    </div>
+</body>
+</html>
